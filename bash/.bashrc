@@ -12,7 +12,7 @@ alias ga='git add'
 alias gc='git commit'
 alias gco='git checkout'
 alias gl='git log --oneline --graph --all'
-alias lp='git add . && git commit -m "chore: update learning repo" && git push'
+alias lp='git add . && git commit -m "chore: update learning repo" && git push' # only for my learning repos where I make tiny checkpoint commits. my real projects always get meaningful, atomic commits.
 alias cv='git add . && git commit -m "chore: update my CV" && git push'
 alias ncv='git add . && git commit -m "chore: update other stuff; not my CV(s)" && git push' # non-cv stuff in my cv backup repo
 
