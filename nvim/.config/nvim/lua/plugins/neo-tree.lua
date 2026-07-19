@@ -1,0 +1,135 @@
+return {
+    "nvim-neo-tree/neo-tree.nvim",
+    branch = "v3.x",
+    dependencies = {
+        "nvim-lua/plenary.nvim",
+        "nvim-tree/nvim-web-devicons",
+        "MunifTanjim/nui.nvim",
+    },
+    keys = {
+        { "<C-n>",      ":Neotree toggle left<CR>",          noremap = true, silent = true },
+        { "<leader>bf", ":Neotree buffers reveal float<CR>", noremap = true, silent = true },
+        { "<leader>gt", ":Neotree git_status<CR>",           noremap = true, silent = true },
+    },
+    config = function()
+        require("neo-tree").setup({
+            close_if_last_window = false,
+            popup_border_style = "rounded",
+            enable_git_status = true,
+            enable_diagnostics = true,
+            default_component_configs = {
+                indent = {
+                    padding = 0,
+                    with_markers = true,
+                    indent_marker = "│",
+                    last_indent_marker = "└",
+                    highlight = "NeoTreeIndentMarker",
+                    with_expanders = true,
+                    expander_collapsed = "",
+                    expander_expanded = "",
+                    expander_highlight = "NeoTreeExpander",
+                },
+                icon = {
+                    folder_closed = "",
+                    folder_open = "",
+                    folder_empty = "󰜌",
+                    default = "*",
+                    highlight = "NeoTreeFileIcon",
+                },
+                modified = {
+                    symbol = "[+]",
+                    highlight = "NeoTreeModified",
+                },
+                name = {
+                    trailing_slash = false,
+                    use_git_status_colors = true,
+                    highlight = "NeoTreeFileName",
+                },
+                git_status = {
+                    symbols = {
+                        added = "✓",
+                        modified = "",
+                        deleted = "✕",
+                        renamed = "󰁕",
+                        untracked = "?",
+                        ignored = "󰒌",
+                        unstaged = "󰄱",
+                        staged = "",
+                        conflict = "",
+                    },
+                },
+            },
+            window = {
+                position = "left",
+                width = 30,
+                mapping_options = {
+                    noremap = true,
+                    nowait = true,
+                },
+                mappings = {
+                    ["<space>"] = "toggle_node",
+                    ["<2-LeftMouse>"] = "open",
+                    ["<cr>"] = "open",
+                    ["<esc>"] = "revert_preview",
+                    ["P"] = { "toggle_preview", config = { use_float = true, use_image_popup = true } },
+                    ["l"] = "open",
+                    ["h"] = "close_node",
+                    ["C"] = "close_all_subnodes",
+                    ["z"] = "close_all_nodes",
+                    ["a"] = {
+                        "add",
+                        config = {
+                            show_path = "relative",
+                        },
+                    },
+                    ["A"] = "add_directory",
+                    ["d"] = "delete",
+                    ["r"] = "rename",
+                    ["c"] = "copy",
+                    -- ["x"] = "cut",
+                    -- ["p"] = "paste",
+                    ["q"] = "close_window",
+                    ["R"] = "refresh",
+                    ["?"] = "show_help",
+                    ["<"] = "prev_source",
+                    [">"] = "next_source",
+                    ["i"] = "show_file_details",
+                },
+            },
+            nesting_rules = {},
+            filesystem = {
+                filtered_items = {
+                    visible = false,
+                    hide_dotfiles = false,
+                    hide_gitignored = true,
+                },
+                follow_current_file = {
+                    enabled = true,
+                },
+                group_empty_dirs = false,
+                hijack_netrw_behavior = "open_current",
+                use_libuv_file_watcher = false,
+            },
+            buffers = {
+                follow_current_file = {
+                    enabled = true,
+                },
+                group_empty_dirs = true,
+                show_unloaded = true,
+            },
+            git_status = {
+                symbols = {
+                    added = "✓",
+                    modified = "",
+                    deleted = "✕",
+                    renamed = "󰁕",
+                    untracked = "?",
+                    ignored = "󰒌",
+                    unstaged = "󰄱",
+                    staged = "",
+                    conflict = "",
+                },
+            },
+        })
+    end,
+}
