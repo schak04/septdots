@@ -1,0 +1,7 @@
+**/.zsh_history
+**/.bash_history
+**/.zcompdump*
+tmux/.config/tmux/plugins/
+hypr/.config/hypr/shaders/.compiled.cache.glsl
+waybar/.config/waybar/.lock
+vim/.config/vim/.netrwhist
