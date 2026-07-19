@@ -1,0 +1,10 @@
+    "custom/power": {
+        "format": "{}",
+        "rotate": ${r_deg},
+        "exec": "echo ; echo  logout",
+        "on-click": "$HOME/.local/share/bin/logoutlaunch.sh",
+        "on-click-right": "$HOME/.local/share/bin/logoutlaunch.sh 1",
+        "interval" : 86400, // once every day
+        "tooltip": true
+    },
+

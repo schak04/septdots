@@ -1,0 +1,20 @@
+    "hyprland/window": {
+        "format": "  {}",
+        "rotate": ${r_deg},
+        "separate-outputs": true,
+        "rewrite": {
+            "(.*)${USER}@${set_sysname}:(.*)": "$1  :$2",
+            "(.*) - Mozilla Firefox": "$1 󰈹",
+            "(.*)Mozilla Firefox": "$1 Firefox 󰈹",
+            "(.*) - Visual Studio Code": "$1 󰨞",
+            "(.*)Visual Studio Code": "$1 Code 󰨞",
+            "(.*) - Dolphin": "$1 󰉋",
+            "(.*)Spotify.*": "$1 Spotify 󰓇",
+            "(.*)Steam": "$1 Steam 󰓓",
+            "(.*) - Discord": "$1  ",
+            "(.*?)-\\s*YouTube(.*)": "$1󰗃", 
+            "(.*?\\s)YouTube(.*)": "$1YouTube 󰗃"
+        },
+        "max-length": 50
+    },
+
