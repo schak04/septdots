@@ -102,9 +102,8 @@ alias ga='git add'
 alias gc='git commit'
 alias gco='git checkout'
 alias gl='git log --oneline --graph --all'
-alias lp='git add . && git commit -m "chore: update learning repo" && git push' # only for my learning repos where I make tiny checkpoint commits. my real projects always get meaningful, atomic commits.
-alias cv='git add . && git commit -m "chore: update my CV" && git push' # for every time I make changes in my cv (in my cv backup repo)
-alias ncv='git add . && git commit -m "chore: update other stuff; not my CV(s)" && git push' # non-cv stuff (in my cv backup repo)
+alias lr='git add . && git commit -m "chore: update learning repo"' # only for my learning repos where I make tiny checkpoint commits. my real projects always get meaningful, atomic commits.
+alias cv='git add . && git commit -m "chore: update my CV"' # for every time I make changes in my cv backup repo
 
 # random stuff
 # for when I mess up a command and need a second chance (or third)
