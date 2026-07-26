@@ -8,6 +8,12 @@ My personal Arch Linux + Hyprland dotfiles, development environment, and tooling
 
 ---
 
+## Additional
+
+- [Arch Linux Bluetooth Headset Mic Fix (PipeWire / WirePlumber)](https://github.com/schak04/arch-bluetooth-headset-mic-fix)
+
+---
+
 ## Credits
 
 These dotfiles have been customised over time to suit my workflow. Several parts are derived from or inspired by the following projects and resources:
