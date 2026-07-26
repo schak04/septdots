@@ -1,0 +1,10 @@
+[opener]
+play_audio = [
+    { run = '~/.config/yazi/scripts/yazi-music.sh "$@"', block = true, desc = "Play Music with Cava" }
+]
+
+[open]
+rules = [
+    { mime = "audio/*", use = "play_audio" }
+]
+
