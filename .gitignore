@@ -5,3 +5,10 @@ tmux/.config/tmux/plugins/
 hypr/.config/hypr/shaders/.compiled.cache.glsl
 waybar/.config/waybar/.lock
 vim/.config/vim/.netrwhist
+
+# dynamic runtime theme outputs
+hypr/.config/hypr/themes/theme.conf
+hypr/.config/hypr/themes/colors.conf
+kitty/.config/kitty/theme.conf
+rofi/.config/rofi/theme.rasi
+waybar/.config/waybar/theme.css
