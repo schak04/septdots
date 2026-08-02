@@ -65,7 +65,7 @@ function in {
 }
 
 # Helpful aliases
-# alias c='clear' # clear terminal -> commented out because I use 'c' for my C learning dir
+alias c='clear'
 
 # Set colors for ls/eza
 [ -f ~/.dircolors ] && eval $(dircolors -b ~/.dircolors)
@@ -127,11 +127,11 @@ alias s-memalloc='cd $HOME/Documents/Projects/systems-programming/s-memalloc'
 alias s-vector='cd $HOME/Documents/Projects/libs/s-vector'
 
 # some important learning dirs
-alias c='cd $HOME/Documents/Learnings/C'
-alias cpp='cd $HOME/Documents/Learnings/C++'
-alias go='cd $HOME/Documents/Learnings/Go'
-alias rust='cd $HOME/Documents/Learnings/Rust'
-alias dsa='cd $HOME/Documents/Learnings/DSA'
+alias cdir='cd $HOME/Documents/Learnings/C'
+alias cppdir='cd $HOME/Documents/Learnings/C++'
+alias godir='cd $HOME/Documents/Learnings/Go'
+alias rustdir='cd $HOME/Documents/Learnings/Rust'
+alias dsadir='cd $HOME/Documents/Learnings/DSA'
 
 # To customize prompt, run `p10k configure` or edit ~/.config/zsh/.p10k.zsh.
 [[ -f ~/.config/zsh/.p10k.zsh ]] && source ~/.config/zsh/.p10k.zsh
