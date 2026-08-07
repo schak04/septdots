@@ -68,7 +68,7 @@ function in {
 alias c='clear'
 
 # Set colors for ls/eza
-[ -f ~/.dircolors ] && eval $(dircolors -b ~/.dircolors)
+eval "$(dircolors -b)"
 
 alias l='eza -lh --icons=auto' # long list
 alias ls='eza -1 --icons=auto' # short list
@@ -81,7 +81,6 @@ alias pl='$aurhelper -Qs' # list installed package
 alias pa='$aurhelper -Ss' # list available package
 alias pc='$aurhelper -Sc' # remove unused cache
 alias po='$aurhelper -Qtdq | $aurhelper -Rns -' # remove unused packages, also try > $aurhelper -Qqd | $aurhelper -Rsu --print -
-alias vc='code' # gui code editor
 
 # cd shortcuts
 alias ..='cd ..'
