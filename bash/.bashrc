@@ -24,6 +24,9 @@ alias enter-the-wasteland='sudo systemctl reboot --boot-loader-entry=auto-window
 alias btmic='pactl set-card-profile $(pactl list cards short | grep bluez | cut -f2) headset-head-unit-cvsd && pactl set-source-mute $(pactl list sources short | grep bluez_input | cut -f2) 0 && pactl set-source-volume $(pactl list sources short | grep bluez_input | cut -f2) 80%'
 alias bta2dp='pactl set-card-profile $(pactl list cards short | grep bluez | cut -f2) a2dp-sink'
 
+# reinitialise ELAN I2C touchpad
+alias reinit-touchpad='sudo modprobe -r i2c_hid_acpi hid_multitouch && sudo modprobe i2c_hid_acpi && sudo modprobe hid_multitouch'
+
 # editor
 export EDITOR=nvim
 export VISUAL=nvim
