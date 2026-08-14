@@ -8,13 +8,13 @@ My personal Arch Linux + Hyprland dotfiles, development environment, and tooling
 
 ---
 
-## Additional
+## Fixes I Figured Out and Wrote About
 
 - [Arch Linux Bluetooth Headset Mic Fix (PipeWire / WirePlumber)](https://github.com/schak04/arch-bluetooth-headset-mic-fix)
 
 ---
 
-## Credits
+## Inspirations and Credits
 
 These dotfiles have been customised over time to suit my workflow. Several parts are derived from or inspired by the following projects and resources:
 
@@ -22,6 +22,13 @@ These dotfiles have been customised over time to suit my workflow. Several parts
 - [Hyprdots](https://github.com/prasanthrangan/hyprdots)
 - [ML4W](https://github.com/mylinuxforwork/dotfiles)
 - [Neovim for Newbs](https://github.com/cpow/neovim-for-newbs)
+
+### Credits for Other Configs and Resources
+
+These are configs and resources I use but have not included in this repo (as I use them as is and haven't made any tweaks):
+
+- [sddm-astronaut-theme](https://github.com/Keyitdev/sddm-astronaut-theme)
+- [Solarized Color Theme for GNU ls](https://github.com/seebi/dircolors-solarized)
 
 Many thanks to the authors, maintainers, and contributors of these projects for sharing their work with the community.
 
