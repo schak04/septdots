@@ -4,10 +4,6 @@ vim.opt.tabstop = 4
 vim.opt.softtabstop = 4
 vim.opt.shiftwidth = 4
 
--- Appearance
-vim.g.mapleader = " "
-vim.g.maplocalleader = "\\"
-
 -- General options
 vim.opt.mouse = ""
 vim.opt.clipboard = "unnamedplus"
@@ -30,6 +26,10 @@ vim.opt.ignorecase = true
 vim.opt.smartcase = true
 vim.opt.hlsearch = true
 
+-- Appearance
+vim.g.mapleader = " "
+vim.g.maplocalleader = "\\"
+
 -- Window navigation
 vim.keymap.set("n", "<C-k>", "<C-w>k", { noremap = true })
 vim.keymap.set("n", "<C-j>", "<C-w>j", { noremap = true })
@@ -38,9 +38,6 @@ vim.keymap.set("n", "<C-l>", "<C-w>l", { noremap = true })
 
 -- Clear search highlighting
 vim.keymap.set("n", "<leader>h", ":nohlsearch<CR>", { noremap = true })
-
--- Shortcut for equal sign in insert mode
-vim.keymap.set("i", "<leader>e", "=", { noremap = true })
 
 -- Better indentation
 vim.keymap.set("v", "<", "<gv", { noremap = true })
