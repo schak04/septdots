@@ -27,6 +27,9 @@ return {
         auto_install = true,
         ensure_installed = {
           "lua_ls",
+          "clangd",
+          "gopls",
+          "rust_analyzer",
           "ts_ls",
           "html",
           "cssls",

@@ -15,6 +15,7 @@ vim.opt.signcolumn = "yes"
 vim.opt.cursorline = true
 vim.opt.wrap = true
 vim.opt.linebreak = true
+vim.opt.completeopt = { "menu", "menuone", "noselect" }
 
 -- File handling
 vim.opt.swapfile = false
