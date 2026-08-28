@@ -58,6 +58,9 @@ vim.api.nvim_create_user_command("Ex", "Oil", {})
 -- Open terminal to the right (vertically split up)
 vim.keymap.set("n", "<leader>t", ":belowright vert term<CR>", { noremap = true })
 
+-- Open floating error popup
+vim.keymap.set('n', '<leader>e', vim.diagnostic.open_float, { noremap = true, silent = true })
+
 -- Disable arrow keys in Normal, Insert, and Visual modes
 vim.keymap.set({ "n", "i", "v" }, "<Up>", "<Nop>")
 vim.keymap.set({ "n", "i", "v" }, "<Down>", "<Nop>")
