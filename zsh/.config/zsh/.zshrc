@@ -122,7 +122,7 @@ alias reinit-touchpad='sudo modprobe -r i2c_hid_acpi hid_multitouch && sudo modp
 export EDITOR=nvim
 export VISUAL=nvim
 
-# projects I'm currently workin on
+# some of my projects
 alias septcrawler='cd $HOME/Documents/Projects/backend-systems/septcrawler'
 alias priorify='cd $HOME/Documents/Projects/native-apps/priorify'
 alias s-ls='cd $HOME/Documents/Projects/systems-programming/s-ls'
