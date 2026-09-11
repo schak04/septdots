@@ -124,6 +124,7 @@ export VISUAL=nvim
 
 # some of my projects
 alias septcrawler='cd $HOME/Documents/Projects/backend-systems/septcrawler'
+alias spaceseptpow='cd $HOME/Documents/Projects/game-dev/low-level/spaceseptpow'
 alias priorify='cd $HOME/Documents/Projects/native-apps/priorify'
 alias s-ls='cd $HOME/Documents/Projects/systems-programming/s-ls'
 alias s-memalloc='cd $HOME/Documents/Projects/systems-programming/s-memalloc'
