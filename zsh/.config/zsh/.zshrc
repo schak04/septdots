@@ -105,6 +105,12 @@ alias gl='git log --oneline --graph --all'
 alias lr='git add . && git commit -m "chore: update learning repo"' # only for my learning repos where I make tiny checkpoint commits. my real projects always get meaningful, atomic commits.
 alias cv='git add . && git commit -m "chore: update my CV"' # for every time I make changes in my cv backup repo
 
+# hyprsunset
+alias warmthon3500='hyprctl hyprsunset temperature 3500'
+alias warmthon2500='hyprctl hyprsunset temperature 2500'
+alias warmthon1500='hyprctl hyprsunset temperature 1500'
+alias warmthoff='hyprctl hyprsunset identity'
+
 # random stuff
 # for when I mess up a command and need a second chance (or third)
 eval $(thefuck --alias)
