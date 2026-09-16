@@ -106,9 +106,14 @@ alias lr='git add . && git commit -m "chore: update learning repo"' # only for m
 alias cv='git add . && git commit -m "chore: update my CV"' # for every time I make changes in my cv backup repo
 
 # hyprsunset
+alias warmthon4500='hyprctl hyprsunset temperature 4500'
+alias warmthon4000='hyprctl hyprsunset temperature 4000'
 alias warmthon3500='hyprctl hyprsunset temperature 3500'
+alias warmthon3000='hyprctl hyprsunset temperature 3000'
 alias warmthon2500='hyprctl hyprsunset temperature 2500'
+alias warmthon2000='hyprctl hyprsunset temperature 2000'
 alias warmthon1500='hyprctl hyprsunset temperature 1500'
+alias warmthon1000='hyprctl hyprsunset temperature 1000'
 alias warmthoff='hyprctl hyprsunset identity'
 
 # random stuff
