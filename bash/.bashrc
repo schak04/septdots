@@ -46,6 +46,7 @@ export VISUAL=nvim
 alias septcrawler='cd $HOME/Documents/Projects/backend-systems/septcrawler'
 alias spaceseptpow='cd $HOME/Documents/Projects/game-dev/low-level/spaceseptpow'
 alias priorify='cd $HOME/Documents/Projects/native-apps/priorify'
+alias cryp='cd $HOME/Documents/Projects/capstone/crypto-fund-tracer'
 alias s-ls='cd $HOME/Documents/Projects/systems-programming/s-ls'
 alias s-memalloc='cd $HOME/Documents/Projects/systems-programming/s-memalloc'
 alias s-vector='cd $HOME/Documents/Projects/libs/s-vector'
