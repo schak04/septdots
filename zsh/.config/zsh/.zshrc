@@ -143,6 +143,7 @@ alias s-memalloc='cd $HOME/Documents/Projects/systems-programming/s-memalloc'
 alias s-vector='cd $HOME/Documents/Projects/libs/s-vector'
 
 # some important learning dirs
+alias notes='cd $HOME/Documents/Learnings/learning-notes'
 alias cdir='cd $HOME/Documents/Learnings/C'
 alias cppdir='cd $HOME/Documents/Learnings/C++'
 alias godir='cd $HOME/Documents/Learnings/Go'
