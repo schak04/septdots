@@ -43,21 +43,21 @@ export EDITOR=nvim
 export VISUAL=nvim
 
 # some of my projects
-alias septcrawler='cd $HOME/Documents/Projects/backend-systems/septcrawler'
-alias spaceseptpow='cd $HOME/Documents/Projects/game-dev/low-level/spaceseptpow'
-alias priorify='cd $HOME/Documents/Projects/native-apps/priorify'
-alias cryp='cd $HOME/Documents/Projects/capstone/crypto-fund-tracer'
-alias s-ls='cd $HOME/Documents/Projects/systems-programming/s-ls'
-alias s-memalloc='cd $HOME/Documents/Projects/systems-programming/s-memalloc'
-alias s-vector='cd $HOME/Documents/Projects/libs/s-vector'
+alias septcrawler='cd $HOME/Documents/Projects/backend-systems/septcrawler && tmux new-session -A -s septcrawler'
+alias spaceseptpow='cd $HOME/Documents/Projects/game-dev/low-level/spaceseptpow && tmux new-session -A -s spaceseptpow'
+alias priorify='cd $HOME/Documents/Projects/native-apps/priorify && tmux new-session -A -s priorify'
+alias cryp='cd $HOME/Documents/Projects/capstone/crypto-fund-tracer && tmux new-session -A -s cryp'
+alias s-ls='cd $HOME/Documents/Projects/systems-programming/s-ls && tmux new-session -A -s s-ls'
+alias s-memalloc='cd $HOME/Documents/Projects/systems-programming/s-memalloc && tmux new-session -A -s s-memalloc'
+alias s-vector='cd $HOME/Documents/Projects/libs/s-vector && tmux new-session -A -s s-vector'
 
 # some important learning dirs
-alias notes='cd $HOME/Documents/Learnings/learning-notes'
-alias cdir='cd $HOME/Documents/Learnings/C'
-alias cppdir='cd $HOME/Documents/Learnings/C++'
-alias godir='cd $HOME/Documents/Learnings/Go'
-alias rustdir='cd $HOME/Documents/Learnings/Rust'
-alias dsadir='cd $HOME/Documents/Learnings/DSA'
+alias notes='cd $HOME/Documents/Learnings/learning-notes && tmux new-session -A -s notes'
+alias cdir='cd $HOME/Documents/Learnings/C && tmux new-session -A -s c'
+alias cppdir='cd $HOME/Documents/Learnings/C++ && tmux new-session -A -s cpp'
+alias godir='cd $HOME/Documents/Learnings/Go && tmux new-session -A -s go'
+alias rustdir='cd $HOME/Documents/Learnings/Rust && tmux new-session -A -s rust'
+alias dsadir='cd $HOME/Documents/Learnings/DSA && tmux new-session -A -s dsa'
 
 # space at the start to keep command outta history
 HISTCONTROL=ignorespace
