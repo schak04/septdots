@@ -149,6 +149,7 @@ alias cppdir='cd $HOME/Documents/Learnings/C++ && tmux new-session -A -s cpp'
 alias godir='cd $HOME/Documents/Learnings/Go && tmux new-session -A -s go'
 alias rustdir='cd $HOME/Documents/Learnings/Rust && tmux new-session -A -s rust'
 alias dsadir='cd $HOME/Documents/Learnings/DSA && tmux new-session -A -s dsa'
+alias shdir='cd $HOME/Documents/Learnings/shell-scripting && tmux new-session -A -s shscr'
 
 # To customize prompt, run `p10k configure` or edit ~/.config/zsh/.p10k.zsh.
 [[ -f ~/.config/zsh/.p10k.zsh ]] && source ~/.config/zsh/.p10k.zsh

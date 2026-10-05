@@ -58,6 +58,7 @@ alias cppdir='cd $HOME/Documents/Learnings/C++ && tmux new-session -A -s cpp'
 alias godir='cd $HOME/Documents/Learnings/Go && tmux new-session -A -s go'
 alias rustdir='cd $HOME/Documents/Learnings/Rust && tmux new-session -A -s rust'
 alias dsadir='cd $HOME/Documents/Learnings/DSA && tmux new-session -A -s dsa'
+alias shdir='cd $HOME/Documents/Learnings/shell-scripting && tmux new-session -A -s shscr'
 
 # space at the start to keep command outta history
 HISTCONTROL=ignorespace
