@@ -62,7 +62,7 @@ vim.keymap.set("n", "<leader>t", ":belowright vert term<CR>", { noremap = true }
 vim.keymap.set('n', '<leader>e', vim.diagnostic.open_float, { noremap = true, silent = true })
 
 -- Disable arrow keys in Normal, Insert, and Visual modes
-vim.keymap.set({ "n", "i", "v" }, "<Up>", "<Nop>")
-vim.keymap.set({ "n", "i", "v" }, "<Down>", "<Nop>")
-vim.keymap.set({ "n", "i", "v" }, "<Left>", "<Nop>")
-vim.keymap.set({ "n", "i", "v" }, "<Right>", "<Nop>")
+vim.keymap.set({ "n", "v" }, "<Up>", "<Nop>")
+vim.keymap.set({ "n", "v" }, "<Down>", "<Nop>")
+vim.keymap.set({ "n", "v" }, "<Left>", "<Nop>")
+vim.keymap.set({ "n", "v" }, "<Right>", "<Nop>")
