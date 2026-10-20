@@ -10,6 +10,9 @@ return {
             if ok_ts then
                 ts_context.setup({
                     enable_autocmd = false,
+                    languages = {
+                        c = { __default = "// %s", __multiline = "/* %s */" },
+                    },
                 })
             end
 
