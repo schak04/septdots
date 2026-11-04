@@ -105,6 +105,14 @@ alias gl='git log --oneline --graph --all'
 alias lr='git add . && git commit -m "chore: update learning repo"' # only for my learning repos where I make tiny checkpoint commits. my real projects always get meaningful, atomic commits.
 alias cv='git add . && git commit -m "chore: update my CV"' # for every time I make changes in my cv backup repo
 
+# mic and camera
+#mic
+alias micon="wpctl set-mute @DEFAULT_AUDIO_SOURCE@ 0"
+alias micoff="wpctl set-mute @DEFAULT_AUDIO_SOURCE@ 1"
+# camera
+alias camon="sudo modprobe uvcvideo"
+alias camoff="sudo modprobe -r uvcvideo"
+
 # hyprsunset
 alias warmthon4500='hyprctl hyprsunset temperature 4500'
 alias warmthon4000='hyprctl hyprsunset temperature 4000'
