@@ -52,6 +52,7 @@ export VISUAL=nvim
 
 # some of my projects
 alias septcrawler='cd $HOME/Documents/Projects/backend-systems/septcrawler && tmux new-session -A -s septcrawler'
+alias septqueue='cd $HOME/Documents/Projects/backend-systems/septqueue && tmux new-session -A -s septqueue'
 alias spaceseptpow='cd $HOME/Documents/Projects/game-dev/low-level/spaceseptpow && tmux new-session -A -s spaceseptpow'
 alias priorify='cd $HOME/Documents/Projects/native-apps/priorify && tmux new-session -A -s priorify'
 alias cryp='cd $HOME/Documents/Projects/capstone/crypto-fund-tracer && tmux new-session -A -s cryp'
