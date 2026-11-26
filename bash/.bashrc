@@ -24,15 +24,15 @@ alias camon="sudo modprobe uvcvideo"
 alias camoff="sudo modprobe -r uvcvideo"
 
 # hyprsunset
-alias warmthon4500='hyprctl hyprsunset temperature 4500'
-alias warmthon4000='hyprctl hyprsunset temperature 4000'
-alias warmthon3500='hyprctl hyprsunset temperature 3500'
-alias warmthon3000='hyprctl hyprsunset temperature 3000'
-alias warmthon2500='hyprctl hyprsunset temperature 2500'
-alias warmthon2000='hyprctl hyprsunset temperature 2000'
-alias warmthon1500='hyprctl hyprsunset temperature 1500'
-alias warmthon1000='hyprctl hyprsunset temperature 1000'
-alias warmthoff='hyprctl hyprsunset identity'
+warmth() {
+    if [[ "$1" == "off" || "$1" == "0" ]]; then
+        hyprctl hyprsunset identity
+    elif [[ -n "$1" ]]; then
+        hyprctl hyprsunset temperature "$1"
+    else
+        echo "Usage: warmth <temp|off> (for example: warmth 4000, warmth off)"
+    fi
+}
 
 # other aliases
 eval "$(thefuck --alias)"
